@@ -47,7 +47,7 @@ function checkAnswer(ind){
             $("body").removeClass("game-over");
         },200);
         
-        $("h1").text("Stuti Noob!!,Game Over Press Any Key to Restart");
+        $("h1").text("Game Over Press Any Key to Restart");
         startNewGame();
     }
 }
